@@ -1,0 +1,182 @@
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-red);
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+  gap: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+section > h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.profile-inside {
+  padding: 70px 20px 20px 20px;
+}
+
+.title {
+  display: flex;
+}
+
+.title > h2 {
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.profile-detail {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.profile-detail-picture > img {
+  width: 100%;
+  height: auto;
+  border-radius: 20%;
+}
+
+.profile-detail-introduction {
+}
+
+li > span {
+  font-size: 40px;
+  font-style: italic;
+  padding-left: 010px;
+}
+
+/* #profile {
+  width: 50%;
+  height: 50%;
+  border-radius: 20%;
+  position: center;
+} */
+
+.work {
+  padding: 20px;
+}
+
+.work-title {
+  display: flex;
+}
+
+.work-title > h2 {
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.work-grid {
+  text-align: center;
+  font-size: 30px;
+  padding: 50px 0px;
+}
+
+.gallery {
+  padding: 20px;
+}
+
+.gallery-title {
+  display: flex;
+}
+
+.gallery-title > h2 {
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+.gallery-picture {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 50px;
+  /* width: 60%;
+  height: auto; */
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+.gallery img {
+  width: 300px;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f5f6f7;
+  margin: 0;
+}

@@ -3,12 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <title>Kenta's portfolio site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body>
-    <header></header>
-    <main>
-      <h1>Welcome to Kenta's portfolio site</h1>
-    </main>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#gallery">Travel Gallery</a></li>
+      </ul>
+    </nav>
+    <!-- <section class="welcome-section">
+      <h1>Welcome to Kenta's portfoliosite</h1>
+    </section> -->
+    <section id="profile">
+      <div class="profile-inside">
+        <div class="title">
+          <h2>Profile</h2>
+        </div>
+        <div class="profile-detail">
+          <div class="profile-detail-picture">
+            <img src="/img/profile.jpeg" id="profile" />
+          </div>
+          <div class="profile-detail-introduction">
+            <ul>
+              <li>My name is <span>Kenta</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <div class="work">
+        <div class="work-title">
+          <h2>My Work</h2>
+        </div>
+        <div class="work-grid">Coming soon...</div>
+      </div>
+    </section>
+    <section id="gallery">
+      <div class="gallery">
+        <div class="gallery-title">
+          <h2>Travel Gallery</h2>
+        </div>
+        <div class="gallery-picture">
+          <figure>
+            <img src="img/Philippines.JPG" alt="Philippines" />
+            <figcaption>Philippines</figcaption>
+          </figure>
+          <figure>
+            <img src="img/Australia.png" alt="Australia" />
+            <figcaption>Australia</figcaption>
+          </figure>
+          <figure>
+            <img src="img/Spain.jpeg" alt="Spain" />
+            <figcaption>Spain</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
